@@ -12486,10 +12486,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="40.64" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="73.66" y1="20.32" x2="99.06" y2="20.32" width="0.1524" layer="91"/>
 <label x="91.44" y="20.32" size="1.778" layer="95"/>
-<pinref part="U1" gate="A" pin="PA2"/>
-<wire x1="73.66" y1="38.1" x2="73.66" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="20.32" x2="15.24" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="20.32" x2="15.24" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="PA7"/>
+<wire x1="15.24" y1="40.64" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -12504,8 +12505,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="-10.16" y="40.64" size="1.778" layer="95" rot="R180"/>
 <wire x1="12.7" y1="40.64" x2="-10.16" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="PA1"/>
-<wire x1="17.78" y1="38.1" x2="12.7" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="38.1" x2="12.7" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="40.64" x2="12.7" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="38.1" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="119.38" y="142.24" size="1.778" layer="95"/>
@@ -12535,11 +12536,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <label x="-10.16" y="38.1" size="1.778" layer="95" rot="R180"/>
 <wire x1="7.62" y1="38.1" x2="-10.16" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="U1" gate="A" pin="PA7"/>
-<wire x1="17.78" y1="40.64" x2="15.24" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="40.64" x2="15.24" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="35.56" x2="7.62" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="35.56" x2="7.62" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="35.56" x2="10.16" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="PA6"/>
+<wire x1="10.16" y1="35.56" x2="10.16" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="43.18" x2="17.78" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="78.74" y="101.6" size="1.778" layer="95"/>
@@ -12551,9 +12552,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="READY" class="0">
 <segment>
-<wire x1="17.78" y1="43.18" x2="-10.16" y2="43.18" width="0.1524" layer="91"/>
 <label x="-10.16" y="43.18" size="1.778" layer="95" rot="R180"/>
-<pinref part="U1" gate="A" pin="PA6"/>
+<wire x1="0" y1="43.18" x2="-10.16" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="0" y1="43.18" x2="0" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="0" y1="22.86" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="PA2"/>
+<wire x1="73.66" y1="22.86" x2="73.66" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="-38.1" y="101.6" size="1.778" layer="95"/>
