@@ -4,6 +4,7 @@ Utiliza el microcontrolador attiny1614, la serie 1 de Microchip por su versatili
 el pin de UPDI aunque se puede cambiar por culaquier otro.
 Utiliza dos baterias cr2032 auque solo es necesario una pero al utilizar dos se meojora la descarga y el consumo.
 El sentido de encedido de un prototipo es con READY, SET y GO en ese orden.
+Será compatible con Nomada ingeniero maker y jsumo con un solo control sin necesidad de configuración.
 
 Faltan probar algunas cosas y comenzare el firmware cuando tenga la placa porque probar en simulador no es muy kawai. Cualquier duda pueden contactarme en:
 dzohl.yo@gmail.com
